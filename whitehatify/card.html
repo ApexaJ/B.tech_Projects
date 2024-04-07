@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Poppins&display=swap');
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #EEF0F8;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width:400px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.header{
+    padding: 18px 30px;
+    display: flex;
+    align-items: center;
+}
+.header .title h4{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #181C32;
+}
+.header .title{
+    margin-left: 12px;
+}
+.header .title p{
+    font-size: 0.8rem;
+    color: #B5B5C3 !important;
+}
+.body{
+    border-top: 1px solid #EBEDF3;
+
+    padding: 12px 30px;
+}
+.footer{
+    border-top: 1px solid #EBEDF3;
+    padding: 18px 30px;
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+.col1{
+    width: 38%;
+    padding: 10px 0px;
+}
+.col1 p{
+    font-size: 0.9rem;
+    color: #181C32;
+}
+.col2 p{
+    font-weight: 500;
+    font-size: .9rem;
+    color: #181C32;
+}
+.col2{
+    width: 62%;
+    padding: 10px 0px;
+
+}
+
+.razorpay-payment-button{
+    color: #ffffff;
+    background-color: #8950FC;
+    border-color: #8950FC;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: inline-block;
+    font-weight: normal;
+    color: #3F4254;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.30rem .8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    line-height: 1.5;
+    border-radius: 0.42rem;
+    -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+    color: #ffffff;
+}
+
+  </style>
+</head>
+<body>
+    <div class='container'>
+        <div class='header'>
+            <div class='title'>
+                <h4>WhiteHatify</h4>
+                <p>Payment Details</p>
+            </div>
+        </div>
+        <div class='body'>
+            <div class='row'>
+                <div class='col1'><p>Name:</p></div>
+                <div class='col2'><p>navdeep</p></div>
+            </div>
+            <div class='row'>
+                <div class='col1'><p>Location:</p></div>
+                <div class='col2'><p>London</p></div>
+            </div>
+            <div class='row'>
+                <div class='col1'><p>Revenue:</p></div>
+                <div class='col2'><p>345,000M  </p></div>
+            </div>
+            <div class='row'>
+                <div class='col1'><p>Phone:</p></div>
+                <div class='col2'><p>+456 4543</p></div>
+            </div>
+            <div class='row'>
+                <div class='col1'><p>Email:</p></div>
+                <div class='col2'><p>info@loop.com</p></div>
+            </div>
+            <div class='row'>
+                <div class='col1'><p>Website:</p></div>
+                <div class='col2'><p>www.loop.com</p></div>
+            </div>
+        </div>
+
+        <div class='footer'>
+            <button type='button' class='razorpay-payment-button'>Pay Now</button>
+        </div>
+    </div>
+</body>
+</html>
